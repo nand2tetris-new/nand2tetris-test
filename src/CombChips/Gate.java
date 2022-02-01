@@ -82,7 +82,8 @@ class Gate {
         for (int i = 0; i < 16; ++i) {
             arr_a[15-i] = a % 2;
             arr_b[15-i] = b % 2;
-            a /= 2; b /= 2;
+            a /= 2;
+            b /= 2;
             c[i] = And(arr_a[i], arr_b[i]);
         }
         return c;
@@ -95,7 +96,8 @@ class Gate {
         for (int i = 0; i < 16; ++i) {
             arr_a[15-i] = a % 2;
             arr_b[15-i] = b % 2;
-            a /= 2; b /= 2;
+            a /= 2;
+            b /= 2;
             c[i] = Or(arr_a[i], arr_b[i]);
         }
         return c;
@@ -108,7 +110,8 @@ class Gate {
         for (int i = 0; i < 16; ++i) {
             arr_a[15-i] = a % 2;
             arr_b[15-i] = b % 2;
-            a /= 2; b /= 2;
+            a /= 2;
+            b /= 2;
             c[i] = Mux(arr_a[i], arr_b[i], sel);
         }
         return c;
