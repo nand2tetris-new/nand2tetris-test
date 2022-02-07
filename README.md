@@ -1,3 +1,5 @@
+# !!! This Project has been archived due to insufficient resources !!!
+
 # nand2tetris
 Rebuilding nand2tetris from scratch in different way - Group Project<br><br>
 [![CodeFactor](https://www.codefactor.io/repository/github/nand2tetris-new/nand2tetris/badge/main)](https://www.codefactor.io/repository/github/nand2tetris-new/nand2tetris/overview/main)
