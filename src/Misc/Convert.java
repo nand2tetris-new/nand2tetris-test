@@ -1,5 +1,7 @@
 package Misc;
 
+import java.util.ArrayList;
+
 public class Convert {
     public static Integer Bool2Int(boolean bool) {
         Integer value;
@@ -20,4 +22,13 @@ public class Convert {
         }
         return bool;
     }
+
+    public static int Array2Int(ArrayList<Integer> arr) {
+        int out = 0;
+        for (int i = 0; i < arr.size(); ++i) {
+            out += (Math.pow(10, i))*arr.get(i);
+        }
+        return out;
+    }
+
 }
