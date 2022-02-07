@@ -31,4 +31,10 @@ public class Convert {
         return out;
     }
 
+    public static String[] Int2StrArray(int value) {
+        String str_val = String.valueOf(value);
+        String[] str_arr = str_val.split("");
+
+        return str_arr;
+    }
 }
