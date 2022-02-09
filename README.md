@@ -1,4 +1,4 @@
-# !!! This Project has been archived due to insufficient resources !!!
+# !!! This Project has been archived in favor of Main Project !!!
 
 # nand2tetris
 Rebuilding nand2tetris from scratch in different way - Group Project<br><br>
